@@ -1,0 +1,84 @@
+<nav class="sidebar hoverable">
+  <div class="logo_items flex">
+    <span class="nav_image">
+      <img src="../../../assets/profile.jpg" alt="logo_img" />
+    </span>
+    <span class="logo_name">Admin Panel</span>
+    <i class="bx bx-lock-alt d-none" id="lock-icon" title="Unlock Sidebar"></i>
+    <i class="bx bx-x d-none" id="sidebar-close"></i>
+  </div>
+
+  <div class="menu_container">
+    <div class="menu_items">
+      <ul class="menu_item">
+        <!-- <div class="menu_title flex">
+          <span class="title">Dashboard</span>
+          <span class="line"></span>
+        </div> -->
+        <li class="item">
+          <a  class="link flex">
+            <i class="bx bx-home-alt"></i>
+            <span>Sales Dashboard</span>
+          </a>
+        </li>
+        <li class="item">
+          <a  class="link flex">
+            <i class="bx bx-grid-alt"></i>
+            <span>Leads</span>
+          </a>
+        </li>
+        <li class="item">
+          <a  class="link flex">
+            <i class="bx bxs-magic-wand"></i>
+            <span>Deals</span>
+          </a>
+        </li>
+        <li class="item">
+          <a  class="link flex">
+            <i class="bx bx-folder"></i>
+            <span>Contacts</span>
+          </a>
+        </li>
+        <li class="item">
+          <a  class="link flex">
+            <i class="bx bx-cloud-upload"></i>
+            <span>Accounts</span>
+          </a>
+        </li>
+        <li class="item">
+          <a  class="link flex">
+            <i class="bx bx-grid-alt"></i>
+            <span>Task</span>
+          </a>
+        </li>
+        <li class="item">
+          <a  class="link flex">
+            <i class='bx bx-log-out'></i>
+            <span routerLink="/">Logout</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="sidebar_profile flex">
+      <span class="nav_image">
+        <img src="../../../assets/download.jpg" alt="logo_img" />
+      </span>
+      <div class="data_text">
+        <!-- <span class="name">David Oliva</span> -->
+        <span class="email">{{userName}}</span>
+      </div>
+    </div>
+
+
+  </div>
+</nav>
+
+<!-- Navbar -->
+<nav class="navbar flex">
+  <i class="bx bx-menu" id="sidebar-open"></i>
+  <input type="text" placeholder="Search..." class="search_box" />
+  <!-- <span class="nav_image">
+    <img src="../../../assets/profile.jpg" alt="logo_img" />
+  </span> -->
+</nav>
